@@ -95,32 +95,7 @@ html, body {
     border-radius: 30px;   
     color: white;
 }
-/* .navbar>ul>li:active{
-    border-radius: 30px 30px 0 0;  
-}
-.navbar>ul>li:hover:before:active {
-    content: "";
-    position: absolute;
-    bottom: 0px;
-    left: -40px;
-    height: 30px;
-    width: 40px;
-    border-bottom-right-radius: 50%;
-     background: #000;
-    box-shadow: 15px 0px 0px 0px #e9d5ac;
-} 
-.navbar>ul>li:hover::after:active {
-    content: "";
-    position: absolute;
-    bottom: 0px;
-    right: -40px;
-    height: 30px;
-    width: 40px;
-    border-bottom-left-radius: 50%;
-    background: #000;
-    box-shadow: -15px 0px 0px 0px #e9d5ac;
-}
- */
+
 
 .navbar>ul>li>a{
     text-decoration: none;
@@ -271,7 +246,7 @@ html, body {
     transition: all 2s ease;
 }
 .card1:hover{
-    background-color: red;
+    background-color: red;         /* i didnt add know more button as i didnt get what you guys are asking still i made the text toggle on hover . i mean is the title and picture is displaying firsthand and if i didnt display them there wont be anything to display  */
 }
 .card1>div>.text{
     display: none;
